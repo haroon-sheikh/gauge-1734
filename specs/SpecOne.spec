@@ -1,116 +1,46 @@
-# Specification One
+# Specification Heading 1
 
-   |CONTEXT_URL|
-   |-----------|
-   |url1       |
-   |url2       |
-   |url3       |
-* Set something 
+   |SECONDS|
+   |-------|
+   |1      |
+   |2      |
+   |3      |
+* Do something with a table 
 
-   |key1|key2|key3|
-   |----|----|----|
-   |A   |B   |C   |
-
-
-## Do something one
-* Do something
-* Do something
-* Do something <CONTEXT_URL>
-* Then should contain these headers 
-
-   |key1  |key2  |
-   |------|------|
-   |value1|value2|
-* Set something 
-
-   |key1|key2|key3|
-   |----|----|----|
-   |A   |B   |C   |
-* Do something <CONTEXT_URL>
-* Set something 
-
-   |key1|key2|key3|
-   |----|----|----|
-   |A   |B   |C   |
+   |foo|bar |foo2|
+   |---|----|----|
+   |KEY|KEY2|KEY3|
 
 
-## Do something two
-* Do something
-* Do something
-* Do something <CONTEXT_URL>
-* Then should contain these headers 
+* Some step that takes "1" seconds
+* Some step that takes "2" seconds
+* Some step that takes "1" seconds
+* Some step that takes "2" seconds
+* Some step that takes "1" seconds
+* Some step that takes "2" seconds
+* Some step that takes "1" seconds
+* Some step that takes "2" seconds
+Running on 4 streams this will fail (you will need to give it at least 5 runs)
+Remove the last step on line 22 and it will pass
 
-   |key1  |key2  |
-   |------|------|
-   |value1|value2|
-* Set something 
+## Scenario Heading 1
+* Some step that takes "1" seconds
+* Some step that takes "2" seconds
+* Some step that takes <SECONDS> seconds
+* Some step that takes "2" seconds
 
-   |key1|key2|key3|
-   |----|----|----|
-   |A   |B   |C   |
-* Do something <CONTEXT_URL>
-* Set something 
+## Scenario Heading 2
+* Do something with a table 
 
-   |key1|key2|key3|
-   |----|----|----|
-   |A   |B   |C   |
+   |foo|bar |foo2|
+   |---|----|----|
+   |KEY|KEY2|KEY3|
 
+* Some step that takes <SECONDS> seconds
+* Some step that takes "1" seconds
+* Some step that takes "2" seconds
+* Do something with another table 
 
-## Do something three
-* Do something
-* Do something
-* Do something <CONTEXT_URL>
-* Set something 
-
-   |key1|key2|key3|
-   |----|----|----|
-   |A   |B   |C   |
-* Do something <CONTEXT_URL>
-* Set something 
-
-   |key1|key2|key3|
-   |----|----|----|
-   |A   |B   |C   |
-
-
-## Do something four
-* Do something
-* Do something
-* Do something <CONTEXT_URL>
-* Set something 
-
-   |key1|key2|key3|
-   |----|----|----|
-   |A   |B   |C   |
-* Do something <CONTEXT_URL>
-* Then should contain these headers 
-
-   |key1  |key2  |
-   |------|------|
-   |value1|value2|
-* Set something 
-
-   |key1|key2|key3|
-   |----|----|----|
-   |A   |B   |C   |
-
-## Do something five
-* Do something
-* Do something
-* Do something <CONTEXT_URL>
-* Set something 
-
-   |key1|key2|key3|
-   |----|----|----|
-   |A   |B   |C   |
-* Do something <CONTEXT_URL>
-* Set something 
-
-   |key1|key2|key3|
-   |----|----|----|
-   |A   |B   |C   |
-* Then should contain these headers 
-
-   |key1  |key2  |
-   |------|------|
-   |value1|value2|
+   |foo|bar |foo2|
+   |---|----|----|
+   |KEY|KEY2|KEY3|

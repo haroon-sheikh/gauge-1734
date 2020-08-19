@@ -1,4 +1,4 @@
-# Specification Heading 4
+# Specification Heading 5
 
    |SECONDS|
    |-------|
@@ -11,12 +11,12 @@
    |---|----|----|
    |KEY|KEY2|KEY3|
 
-## Scenario Heading 4.1
+## Scenario Heading 5.1
 * Some step that takes "1" seconds
 * Some step that takes "2" seconds
 * Some step that takes <SECONDS> seconds
 
-## Scenario Heading 4.2
+## Scenario Heading 5.2
 * Some step that takes "1" seconds
 * Some step that takes "2" seconds
 * Some step that takes "1" seconds
@@ -28,7 +28,7 @@
 * Some step that takes "1" seconds
 * Some step that takes "2" seconds
 
-## Scenario Heading 4.3
+## Scenario Heading 5.3
 * Some step that takes "1" seconds
 * Some step that takes <SECONDS> seconds
 * Some step that takes "1" seconds
