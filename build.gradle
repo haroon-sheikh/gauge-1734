@@ -32,4 +32,5 @@ dependencies {
 
 gauge {
     specsDir = 'specs'
+    env = 'test'
 }
