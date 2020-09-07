@@ -7,7 +7,7 @@ public class PropertySpec {
 
     @Step("verify property")
     public void verifyProperty() {
-        Assert.assertEquals("http://testurl", System.getenv("TEST_URL"));
+        Assert.assertEquals("http://testurl", System.getenv("test_url"));
     }
 
 }
